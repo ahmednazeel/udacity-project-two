@@ -1,0 +1,138 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--text-color);
+}
+body{
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  font-family: system-ui, sans-serif;
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+:root{
+  --bg-color:#222;
+  --text-color:#FFF;
+  --second-color:#19d898;
+}
+#app{
+  width: 80%;
+  margin: auto;
+  height:100vh;
+  font-size: 20px;
+  font-family: system-ui,sans-serif;
+  color: var(--second-color);
+  position: relative;
+
+}
+.headline{
+  text-align: center;
+  padding: 20px;
+}
+.zip{
+  /* margin: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5em 0 2em;
+}
+.zip label{
+  padding:20px 50px;
+  background-color:skyblue;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: #6195ff 5px solid;
+  color: #000000;
+}
+.zip input{
+  padding:20px 50px;
+  font-size: 130%;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+/* .holder.entry{
+  
+} */ 
+/* feelling */
+.feel{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+textarea.myInput{
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom:10px ;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+#generate{
+  /* position: absolute;
+  top: 12%;
+  right: 150px; */
+  width: 150px;
+  padding:20px;
+  border-radius: 5px;
+  cursor: pointer;    
+  font-size: 20px;
+  font-weight: 800;
+  border: #6195ff 5px dashed;
+  color: #6ebeff;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 15px auto;
+}
+#generate:hover{
+  background-color:#6ebeff ;
+  color: #FFF;
+  border: #FFF 5px dashed;
+}
+textarea.myInput::placeholder{
+  text-align: center;
+  font-size: 25px;
+}
+#entry{
+  background-image:url(img.jpg);
+  padding: 20px;
+  background-position: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+#entryHolder{
+  margin: 15px 0;
+}
+#temp{
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+  color:#ffffff; 
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+  color: #6195ff; 
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+  color: #333; 
+
+} 
